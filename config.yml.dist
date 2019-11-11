@@ -1,0 +1,7 @@
+lookup:
+  folder: ''
+  extension: 'wav'
+
+trash:
+  mode: 'move'
+  folder: ''
