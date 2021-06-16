@@ -1,7 +1,6 @@
 import os
 import shutil
 import subprocess
-
 import yaml
 
 from filesystem.directory import lookup_files
