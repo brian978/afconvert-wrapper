@@ -12,4 +12,4 @@ def lookup_files(directory: str, extension: str):
             ext = str(file[-1:][0])
             if ext.lower() == extension.lower():
                 filename = '.'.join(file[:-1])
-                yield (filename, ext, filename.split('/')[-1:][0])
+                yield filename, ext, filename.split('/')[-1:][0]
